@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dw47anpmii2tn"]
+
+[ext_resource type="Shader" uid="uid://capa15nljdvy2" path="res://lessons/GSLS/lesson01/lesson01.gdshader" id="1_fpbxh"]
+[ext_resource type="Texture2D" uid="uid://gkvhkh24uv2h" path="res://icon.svg" id="2_amnsd"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sadms"]
+shader = ExtResource("1_fpbxh")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_sadms")
+position = Vector2(619.5, 395.06763)
+scale = Vector2(2.1796875, 2.0635567)
+texture = ExtResource("2_amnsd")

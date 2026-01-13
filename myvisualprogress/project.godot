@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="myvisualprogress"
-run/main_scene="uid://dyd35od5ku1qd"
+run/main_scene="uid://dw47anpmii2tn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
